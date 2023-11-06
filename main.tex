@@ -1,0 +1,96 @@
+\documentclass[13pt]{article}
+\usepackage{graphicx} 
+
+\title{Database Manangement System\\Assingment-1\\Report\vspace{2cm}\\Dictionary Database Using Mysql/Mariadb and Connection with Server}
+
+\author{\vspace{5cm}\\UDIT\\21010107\\CSE 4th Sem}
+\date{28th March 2023}
+
+\begin{document}
+
+\maketitle  
+\begin{center}
+\large
+\vfill
+\large Indian Institute of Information Technology Senapati Manipur\\Department of Computer Science And Engg \end{center}
+\pagebreak
+\section{Introduction}
+\vspace{1cm}
+\subsection{Overview}
+
+A database connection is a facility in computer science that allows client software to talk to database server software, whether on the same machine or not. A connection is required to send commands and receive answers, usually in the form of a result set.
+
+\vspace{1cm}
+\subsection{Software Used}
+1.Apache server\\
+2.Php\\
+3.Browser\\
+4.Kali-Linux / Windows\\
+\vspace{0.5cm}\\
+Dictionary Database Using Mysql / MariaDb and Connection with Server
+Dictionary Database is made by using Mysql \\
+\vspace{0.5cm}\\
+Connection is establised by using apache on localhost in browser with connection.php and index.php file and further data is fetched.
+
+
+
+\section{Assumptions in Database}
+
+Database Contain seven entities 
+\vspace{0.3cm}\\
+
+\begin{tabular}{ |c| } 
+ \hline
+ words & 
+ Lang & 
+ Pos &
+ Liventity &
+ Mean &
+ Synonyms &
+ Antonynms &
+ 
+ \hline
+\end{tabular}
+
+\vspace{0.5cm}
+\\Image is stored in liventity table using longblob datatype and loadfile function.
+\\Datatype for storing Different languages in table is nvarchar().
+
+\subsection{Words }Words input in database are 20
+\\  Plethora  , Degust,  Defunct    
+\\ Dog ,       Cat  ,      Lion    , 
+\\Goat    ,    sahara  ,       Polo   ,  Thar   
+ Scorpion  , Everest ,   adulation  ,Articulate,  \\Candor    , conducive  ,Egregious ,  Entail  ,   Facilitate,  Novel
+
+
+\section{Structure used in Database}
+\subsection{E-R Diagram}
+\begin{center}
+\includegraphics[width=16cm]{ER.png}\end{center}
+\vspace{0.4cm}
+
+\subsection{Tables}
+\includegraphics[scale=0.5]{Screenshot (85).png}
+\vspace{0.5cm}
+\\
+\includegraphics[scale=0.3]{Screenshot (86).png}
+\\
+\vspace{0.5cm}
+\includegraphics[scale=0.5]{Screenshot (93).png}
+
+\includegraphics[scale=0.4]{Screenshot (88).png}
+\\
+\includegraphics[scale=0.4]{Screenshot (89).png}
+\\
+\includegraphics[scale=0.4]{Screenshot (90).png}
+\\
+
+\includegraphics[scale=0.4,width=10cm]{Screenshot (91).png}
+\\
+\subsection{Output}
+\includegraphics[scale=0.3,width=17cm]{Screenshot (92).png}
+\\
+
+
+
+\end{document}
